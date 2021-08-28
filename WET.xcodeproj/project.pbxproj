@@ -3,18 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		98F1ED0E2639260A00EE5341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED0D2639260A00EE5341 /* AppDelegate.swift */; };
 		98F1ED102639260B00EE5341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED0F2639260B00EE5341 /* SceneDelegate.swift */; };
-		98F1ED122639260B00EE5341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED112639260B00EE5341 /* ViewController.swift */; };
 		98F1ED152639260B00EE5341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F1ED132639260B00EE5341 /* Main.storyboard */; };
 		98F1ED172639260B00EE5341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F1ED162639260B00EE5341 /* Assets.xcassets */; };
 		98F1ED1A2639260B00EE5341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F1ED182639260B00EE5341 /* LaunchScreen.storyboard */; };
 		98F1ED252639260B00EE5341 /* WETTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED242639260B00EE5341 /* WETTests.swift */; };
 		98F1ED302639260B00EE5341 /* WETUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED2F2639260B00EE5341 /* WETUITests.swift */; };
+		98F1ED52263929E300EE5341 /* FoodImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED51263929E300EE5341 /* FoodImage.swift */; };
+		98F1ED57263929EE00EE5341 /* FoodImageUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED56263929EE00EE5341 /* FoodImageUrl.swift */; };
+		98F1ED6226392A0900EE5341 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED6126392A0900EE5341 /* Restaurant.swift */; };
+		98F1ED7126393AD700EE5341 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED7026393AD700EE5341 /* FoodModel.swift */; };
+		98F1ED7A26393CA000EE5341 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED7926393CA000EE5341 /* RestaurantModel.swift */; };
+		98F1ED8826393FA100EE5341 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 98F1ED8726393FA100EE5341 /* Kingfisher */; };
+		98F1ED902639567400EE5341 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED8F2639567400EE5341 /* FoodViewController.swift */; };
+		98F1ED95263A0DF100EE5341 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED94263A0DF000EE5341 /* RestaurantViewController.swift */; };
+		98F1ED9A263A1E5800EE5341 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1ED99263A1E5800EE5341 /* IndexViewController.swift */; };
+		98F1EDAD263A7A0400EE5341 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1EDAC263A7A0400EE5341 /* RestaurantTableViewController.swift */; };
+		98F1EDB2263A8CA800EE5341 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1EDB1263A8CA800EE5341 /* RestaurantCell.swift */; };
+		98F1EDB7263A907B00EE5341 /* DetailRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1EDB6263A907B00EE5341 /* DetailRestaurantViewController.swift */; };
+		98F1EDC2263B5FE800EE5341 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1EDC1263B5FE800EE5341 /* MapViewController.swift */; };
+		98F1EDCA263BDF7100EE5341 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98F1EDC9263BDF7100EE5341 /* GoogleService-Info.plist */; };
+		98F1EDD0263BE0C600EE5341 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 98F1EDCF263BE0C600EE5341 /* FirebaseAuth */; };
+		98F1EDD2263BE0C600EE5341 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 98F1EDD1263BE0C600EE5341 /* FirebaseDatabase */; };
+		98F1EDD4263BE0C600EE5341 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 98F1EDD3263BE0C600EE5341 /* FirebaseFirestoreSwift-Beta */; };
+		98F1EDE62640FDC000EE5341 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 98F1EDE52640FDC000EE5341 /* JGProgressHUD */; };
+		98F1EDF92642615400EE5341 /* ViewedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1EDF82642615300EE5341 /* ViewedImageViewController.swift */; };
+		98F1EDFE2642637200EE5341 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1EDFD2642637200EE5341 /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +57,6 @@
 		98F1ED0A2639260A00EE5341 /* WET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F1ED0D2639260A00EE5341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F1ED0F2639260B00EE5341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		98F1ED112639260B00EE5341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98F1ED142639260B00EE5341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98F1ED162639260B00EE5341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F1ED192639260B00EE5341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +67,21 @@
 		98F1ED2B2639260B00EE5341 /* WETUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WETUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F1ED2F2639260B00EE5341 /* WETUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WETUITests.swift; sourceTree = "<group>"; };
 		98F1ED312639260B00EE5341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F1ED51263929E300EE5341 /* FoodImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodImage.swift; sourceTree = "<group>"; };
+		98F1ED56263929EE00EE5341 /* FoodImageUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodImageUrl.swift; sourceTree = "<group>"; };
+		98F1ED6126392A0900EE5341 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		98F1ED7026393AD700EE5341 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		98F1ED7926393CA000EE5341 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		98F1ED8F2639567400EE5341 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		98F1ED94263A0DF000EE5341 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		98F1ED99263A1E5800EE5341 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		98F1EDAC263A7A0400EE5341 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		98F1EDB1263A8CA800EE5341 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		98F1EDB6263A907B00EE5341 /* DetailRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRestaurantViewController.swift; sourceTree = "<group>"; };
+		98F1EDC1263B5FE800EE5341 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		98F1EDC9263BDF7100EE5341 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		98F1EDF82642615300EE5341 /* ViewedImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewedImageViewController.swift; sourceTree = "<group>"; };
+		98F1EDFD2642637200EE5341 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F1EDD2263BE0C600EE5341 /* FirebaseDatabase in Frameworks */,
+				98F1EDD4263BE0C600EE5341 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				98F1ED8826393FA100EE5341 /* Kingfisher in Frameworks */,
+				98F1EDD0263BE0C600EE5341 /* FirebaseAuth in Frameworks */,
+				98F1EDE62640FDC000EE5341 /* JGProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +137,11 @@
 		98F1ED0C2639260A00EE5341 /* WET */ = {
 			isa = PBXGroup;
 			children = (
-				98F1ED0D2639260A00EE5341 /* AppDelegate.swift */,
-				98F1ED0F2639260B00EE5341 /* SceneDelegate.swift */,
-				98F1ED112639260B00EE5341 /* ViewController.swift */,
-				98F1ED132639260B00EE5341 /* Main.storyboard */,
+				98F1EE0526436DEB00EE5341 /* Supporting Files */,
+				98F1ED40263928AB00EE5341 /* Model */,
+				98F1ED41263928B300EE5341 /* View */,
+				98F1ED42263928B800EE5341 /* Controller */,
 				98F1ED162639260B00EE5341 /* Assets.xcassets */,
-				98F1ED182639260B00EE5341 /* LaunchScreen.storyboard */,
 				98F1ED1B2639260B00EE5341 /* Info.plist */,
 			);
 			path = WET;
@@ -128,6 +165,53 @@
 			path = WETUITests;
 			sourceTree = "<group>";
 		};
+		98F1ED40263928AB00EE5341 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98F1ED51263929E300EE5341 /* FoodImage.swift */,
+				98F1ED56263929EE00EE5341 /* FoodImageUrl.swift */,
+				98F1ED7026393AD700EE5341 /* FoodModel.swift */,
+				98F1ED6126392A0900EE5341 /* Restaurant.swift */,
+				98F1ED7926393CA000EE5341 /* RestaurantModel.swift */,
+				98F1EDB1263A8CA800EE5341 /* RestaurantCell.swift */,
+				98F1EDFD2642637200EE5341 /* ImageCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98F1ED41263928B300EE5341 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98F1ED132639260B00EE5341 /* Main.storyboard */,
+				98F1ED182639260B00EE5341 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98F1ED42263928B800EE5341 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98F1ED8F2639567400EE5341 /* FoodViewController.swift */,
+				98F1ED94263A0DF000EE5341 /* RestaurantViewController.swift */,
+				98F1ED99263A1E5800EE5341 /* IndexViewController.swift */,
+				98F1EDAC263A7A0400EE5341 /* RestaurantTableViewController.swift */,
+				98F1EDB6263A907B00EE5341 /* DetailRestaurantViewController.swift */,
+				98F1EDC1263B5FE800EE5341 /* MapViewController.swift */,
+				98F1EDF82642615300EE5341 /* ViewedImageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98F1EE0526436DEB00EE5341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98F1ED0F2639260B00EE5341 /* SceneDelegate.swift */,
+				98F1ED0D2639260A00EE5341 /* AppDelegate.swift */,
+				98F1EDC9263BDF7100EE5341 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +228,13 @@
 			dependencies = (
 			);
 			name = WET;
+			packageProductDependencies = (
+				98F1ED8726393FA100EE5341 /* Kingfisher */,
+				98F1EDCF263BE0C600EE5341 /* FirebaseAuth */,
+				98F1EDD1263BE0C600EE5341 /* FirebaseDatabase */,
+				98F1EDD3263BE0C600EE5341 /* FirebaseFirestoreSwift-Beta */,
+				98F1EDE52640FDC000EE5341 /* JGProgressHUD */,
+			);
 			productName = WET;
 			productReference = 98F1ED0A2639260A00EE5341 /* WET.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +306,11 @@
 				Base,
 			);
 			mainGroup = 98F1ED012639260A00EE5341;
+			packageReferences = (
+				98F1ED8626393FA100EE5341 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				98F1EDCE263BE0C600EE5341 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				98F1EDE42640FDBF00EE5341 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
 			productRefGroup = 98F1ED0B2639260A00EE5341 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F1ED1A2639260B00EE5341 /* LaunchScreen.storyboard in Resources */,
+				98F1EDCA263BDF7100EE5341 /* GoogleService-Info.plist in Resources */,
 				98F1ED172639260B00EE5341 /* Assets.xcassets in Resources */,
 				98F1ED152639260B00EE5341 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +355,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F1ED122639260B00EE5341 /* ViewController.swift in Sources */,
+				98F1ED95263A0DF100EE5341 /* RestaurantViewController.swift in Sources */,
+				98F1EDAD263A7A0400EE5341 /* RestaurantTableViewController.swift in Sources */,
+				98F1ED52263929E300EE5341 /* FoodImage.swift in Sources */,
+				98F1EDF92642615400EE5341 /* ViewedImageViewController.swift in Sources */,
+				98F1ED902639567400EE5341 /* FoodViewController.swift in Sources */,
+				98F1ED9A263A1E5800EE5341 /* IndexViewController.swift in Sources */,
+				98F1ED6226392A0900EE5341 /* Restaurant.swift in Sources */,
+				98F1EDB7263A907B00EE5341 /* DetailRestaurantViewController.swift in Sources */,
+				98F1ED7A26393CA000EE5341 /* RestaurantModel.swift in Sources */,
 				98F1ED0E2639260A00EE5341 /* AppDelegate.swift in Sources */,
 				98F1ED102639260B00EE5341 /* SceneDelegate.swift in Sources */,
+				98F1EDB2263A8CA800EE5341 /* RestaurantCell.swift in Sources */,
+				98F1ED7126393AD700EE5341 /* FoodModel.swift in Sources */,
+				98F1EDFE2642637200EE5341 /* ImageCell.swift in Sources */,
+				98F1ED57263929EE00EE5341 /* FoodImageUrl.swift in Sources */,
+				98F1EDC2263B5FE800EE5341 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +703,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98F1ED8626393FA100EE5341 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+		98F1EDCE263BE0C600EE5341 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.1;
+			};
+		};
+		98F1EDE42640FDBF00EE5341 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98F1ED8726393FA100EE5341 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98F1ED8626393FA100EE5341 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		98F1EDCF263BE0C600EE5341 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98F1EDCE263BE0C600EE5341 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		98F1EDD1263BE0C600EE5341 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98F1EDCE263BE0C600EE5341 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		98F1EDD3263BE0C600EE5341 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98F1EDCE263BE0C600EE5341 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		98F1EDE52640FDC000EE5341 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98F1EDE42640FDBF00EE5341 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98F1ED022639260A00EE5341 /* Project object */;
 }
